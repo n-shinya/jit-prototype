@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" href="css/barchart.css" rel="stylesheet" />
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/jit.js"></script>
+    <script type="text/javascript" src="js/barchart.js"></script>
+    <title>JavaScript InfoVis Toolkit sample</title>
+  </head>
+  <body onload="init();">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <p class="brand">BarChart Sample</p>
+          <ul class="nav">
+            <li class="active">
+              <a href="#">View1</a>
+            </li>
+            <li>
+              <a href="#">View2</a>
+            </li>
+          </ul>
+          <div class="btn-toolbar">
+            <div class="btn-group">
+              <button class="btn">week</button>
+              <button class="btn">month</button>
+              <button class="btn">year</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span3">
+        <ul id="group-list" class="unstyled">
+        </ul>
+      </div>
+      <div id="center-container" class="span5">
+        <div id="infovis"></div>
+      </div>
+      <div class="span3">
+        <ul id="id-list">
+          <li><p>No group selected.</p></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+
